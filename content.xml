@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="../../content.xsl"?>
+<content id="UTFactionLogos" name="Faction Logos" description="Adds Faction Logos to many Ships in the Universe" author="UniTrader" date="2014-09-27" version="90" save="false" uninstaller="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://utnas/~unitrader/XRebirthxsds/content.xsd">
+  <text language="44" name="Faction Logos" description="Adds Faction Logos to many Ships in the Universe" author="UniTrader">
+    <info site="forum.egosoft.com" url="http://forum.egosoft.com/viewtopic.php?t=370297" />
+  </text>
+  <text language="49" name="Fraktionslogos" description="Fügt Fraktionslogos auf vielen Schiffen im Universum hinzu" author="UniTrader">
+    <info site="forum.egosoft.com" url="http://forum.egosoft.com/viewtopic.php?t=370271" />
+  </text>
+</content>

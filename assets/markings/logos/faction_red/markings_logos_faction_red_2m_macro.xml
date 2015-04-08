@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported by: Simon (192.168.3.115) at 14.11.2012_12-20-10-->
+<macros>
+  <macro name="markings_logos_faction_red_2m_macro" class="adsign">
+    <component ref="markings_logos_faction_red_2m"/>
+    <properties>
+      <hull max="0" min="0"/>
+    </properties>
+  </macro>
+</macros>

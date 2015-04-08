@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<materiallibrary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://utnas/~unitrader/XRebirthxsds/material_library.xsd">
+
+  <collection name="logos">
+    <material name="faction_albionenergy" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="assets\fx\gui\textures\factions\faction_ae"></property>
+        <property type="BitMap" name="color_glow_map" value="assets\fx\gui\textures\factions\faction_ae"></property>
+        <property type="Float" name="color_glowStr" value="0.25"></property>
+      </properties>
+    </material>
+    <material name="faction_aquarius" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="assets\fx\gui\textures\factions\faction_aquarius"></property>
+        <property type="BitMap" name="color_glow_map" value="assets\fx\gui\textures\factions\faction_aquarius"></property>
+        <property type="Float" name="color_glowStr" value="0.25"></property>
+      </properties>
+    </material>
+    <material name="faction_argongovernment" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTFactionLogos\assets\markings\logos\faction_argongovernment\data\faction_argongovernment"></property>
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTFactionLogos\assets\markings\logos\faction_argongovernment\data\faction_argongovernment"></property>
+        <property type="Float" name="color_glowStr" value="0.15"></property>
+        <!--<property type="BitMap" name="diffuse_map" value="assets\fx\gui\textures\factions\faction_argon"></property>
+        <property type="BitMap" name="color_glow_map" value="assets\fx\gui\textures\factions\faction_argon"></property>-->
+      </properties>
+    </material>
+    <material name="faction_beryll" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTFactionLogos\assets\markings\logos\faction_beryll\data\faction_beryll"></property>
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTFactionLogos\assets\markings\logos\faction_beryll\data\faction_beryll"></property>
+        <property type="Float" name="color_glowStr" value="0.15"></property>
+        <!--<property type="BitMap" name="diffuse_map" value="assets\fx\gui\textures\factions\faction_beryll"></property>
+        <property type="BitMap" name="color_glow_map" value="assets\fx\gui\textures\factions\faction_beryll"></property>-->
+      </properties>
+    </material>
+    <material name="faction_canteran" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="assets\fx\gui\textures\factions\faction_canteran"></property>
+        <property type="BitMap" name="color_glow_map" value="assets\fx\gui\textures\factions\faction_canteran"></property>
+        <property type="Float" name="color_glowStr" value="0.15"></property>
+      </properties>
+    </material>
+    <material name="faction_chow" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTFactionLogos\assets\markings\logos\faction_chow\data\faction_chow"></property>
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTFactionLogos\assets\markings\logos\faction_chow\data\faction_chow"></property>
+        <property type="Float" name="color_glowStr" value="0.15"></property>
+        <!--<property type="BitMap" name="diffuse_map" value="assets\fx\gui\textures\factions\faction_chow"></property>
+        <property type="BitMap" name="color_glow_map" value="assets\fx\gui\textures\factions\faction_chow"></property>-->
+      </properties>
+    </material>
+    <material name="faction_dispossed" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="assets\fx\gui\textures\factions\faction_dispossed"></property>
+        <property type="BitMap" name="color_glow_map" value="assets\fx\gui\textures\factions\faction_dispossed"></property>
+        <property type="Float" name="color_glowStr" value="0.15"></property>
+      </properties>
+    </material>
+    <material name="faction_enemy" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="assets\fx\gui\textures\factions\faction_enemy"></property>
+        <property type="BitMap" name="color_glow_map" value="assets\fx\gui\textures\factions\faction_enemy"></property>
+        <property type="Float" name="color_glowStr" value="0.15"></property>
+      </properties>
+    </material>
+    <material name="faction_familyryak" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTFactionLogos\assets\markings\logos\faction_familyryak\data\faction_familyryak"></property>
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTFactionLogos\assets\markings\logos\faction_familyryak\data\faction_familyryak"></property>
+        <property type="Float" name="color_glowStr" value="0.15"></property>
+      </properties>
+    </material>
+    <material name="faction_fijiargnu" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="assets\fx\gui\textures\factions\faction_fijiargnu"></property>
+        <property type="BitMap" name="color_glow_map" value="assets\fx\gui\textures\factions\faction_fijiargnu"></property>
+        <property type="Float" name="color_glowStr" value="0.15"></property>
+      </properties>
+    </material>
+    <material name="faction_frantonpharma" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="assets\fx\gui\textures\factions\faction_fp"></property>
+        <property type="BitMap" name="color_glow_map" value="assets\fx\gui\textures\factions\faction_fp"></property>
+        <property type="Float" name="color_glowStr" value="0.15"></property>
+      </properties>
+    </material>
+    <material name="faction_friend" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="assets\fx\gui\textures\factions\faction_friend"></property>
+        <property type="BitMap" name="color_glow_map" value="assets\fx\gui\textures\factions\faction_friend"></property>
+        <property type="Float" name="color_glowStr" value="0.15"></property>
+      </properties>
+    </material>
+    <material name="faction_heartofalbion" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTFactionLogos\assets\markings\logos\faction_heartofalbion\data\faction_heartofalbion"></property>
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTFactionLogos\assets\markings\logos\faction_heartofalbion\data\faction_heartofalbion"></property>
+        <property type="Float" name="color_glowStr" value="0.15"></property>
+        <!--<property type="BitMap" name="diffuse_map" value="assets\fx\gui\textures\factions\faction_heartofalbion"></property>
+        <property type="BitMap" name="color_glow_map" value="assets\fx\gui\textures\factions\faction_heartofalbion"></property>-->
+      </properties>
+    </material>
+    <material name="faction_jonferson" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="assets\fx\gui\textures\factions\faction_jsdd"></property>
+        <property type="BitMap" name="color_glow_map" value="assets\fx\gui\textures\factions\faction_jsdd"></property>
+        <property type="Float" name="color_glowStr" value="0.15"></property>
+      </properties>
+    </material>
+    <material name="faction_leddaindustrial" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTFactionLogos\assets\markings\logos\faction_leddaindustrial\data\faction_leddaindustrial"></property>
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTFactionLogos\assets\markings\logos\faction_leddaindustrial\data\faction_leddaindustrial"></property>
+        <property type="Float" name="color_glowStr" value="0.15"></property>
+        <!--<property type="BitMap" name="diffuse_map" value="assets\fx\gui\textures\factions\faction_leddaindustrial"></property>
+        <property type="BitMap" name="color_glow_map" value="assets\fx\gui\textures\factions\faction_leddaindustrial"></property>-->
+      </properties>
+    </material>
+    <material name="faction_neutral" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="assets\fx\gui\textures\factions\faction_neutral"></property>
+        <property type="BitMap" name="color_glow_map" value="assets\fx\gui\textures\factions\faction_neutral"></property>
+        <property type="Float" name="color_glowStr" value="0.15"></property>
+      </properties>
+    </material>
+    <material name="faction_nolimits" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTFactionLogos\assets\markings\logos\faction_nolimits\data\faction_nolimits"></property>
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTFactionLogos\assets\markings\logos\faction_nolimits\data\faction_nolimits"></property>
+        <property type="Float" name="color_glowStr" value="0.15"></property>
+        <!--property type="BitMap" name="diffuse_map" value="assets\fx\gui\textures\factions\faction_no_limits"></property>
+        <property type="BitMap" name="color_glow_map" value="assets\fx\gui\textures\factions\faction_no_limits"></property-->
+      </properties>
+    </material>
+    <material name="faction_ownerless" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="assets\fx\gui\textures\factions\faction_ownerless"></property>
+        <property type="BitMap" name="color_glow_map" value="assets\fx\gui\textures\factions\faction_ownerless"></property>
+        <property type="Float" name="color_glowStr" value="0.15"></property>
+      </properties>
+    </material>
+    <material name="faction_player" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTFactionLogos\assets\markings\logos\faction_player\data\faction_player"></property>
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTFactionLogos\assets\markings\logos\faction_player\data\faction_player"></property>
+        <property type="Float" name="color_glowStr" value="0.15"></property>
+      </properties>
+    </material>
+    <material name="faction_plutarch" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTFactionLogos\assets\markings\logos\faction_plutarch\data\faction_plutarch"></property>
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTFactionLogos\assets\markings\logos\faction_plutarch\data\faction_plutarch"></property>
+        <property type="Float" name="color_glowStr" value="0.15"></property>
+        <!--<property type="BitMap" name="diffuse_map" value="assets\fx\gui\textures\factions\faction_pmc"></property>
+        <property type="BitMap" name="color_glow_map" value="assets\fx\gui\textures\factions\faction_pmc"></property>-->
+      </properties>
+    </material>
+    <material name="faction_red" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTFactionLogos\assets\markings\logos\faction_red\data\faction_red"></property>
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTFactionLogos\assets\markings\logos\faction_red\data\faction_red"></property>
+        <property type="Float" name="color_glowStr" value="0.15"></property>
+        <!--<property type="BitMap" name="diffuse_map" value="assets\fx\gui\textures\factions\faction_red"></property>
+        <property type="BitMap" name="color_glow_map" value="assets\fx\gui\textures\factions\faction_red"></property>-->
+      </properties>
+    </material>
+    <material name="faction_reivers" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTFactionLogos\assets\markings\logos\faction_reivers\data\faction_reivers"></property>
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTFactionLogos\assets\markings\logos\faction_reivers\data\faction_reivers"></property>
+        <property type="Float" name="color_glowStr" value="0.15"></property>
+        <!--<property type="BitMap" name="diffuse_map" value="assets\fx\gui\textures\factions\faction_reivers"></property>
+        <property type="BitMap" name="color_glow_map" value="assets\fx\gui\textures\factions\faction_reivers"></property>-->
+      </properties>
+    </material>
+    <material name="faction_standard" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="assets\fx\gui\textures\factions\faction_standard"></property>
+        <property type="BitMap" name="color_glow_map" value="assets\fx\gui\textures\factions\faction_standard"></property>
+        <property type="Float" name="color_glowStr" value="0.15"></property>
+      </properties>
+    </material>
+    <material name="faction_wholesomefoods" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="assets\fx\gui\textures\factions\faction_wf"></property>
+        <property type="BitMap" name="color_glow_map" value="assets\fx\gui\textures\factions\faction_wf"></property>
+        <property type="Float" name="color_glowStr" value="0.25"></property>
+      </properties>
+    </material>
+    <material name="faction_xenon" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTFactionLogos\assets\markings\logos\faction_xenon\data\faction_xenon"></property>
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTFactionLogos\assets\markings\logos\faction_xenon\data\faction_xenon"></property>
+        <property type="Float" name="color_glowStr" value="0.15"></property>
+        <!--<property type="BitMap" name="diffuse_map" value="assets\fx\gui\textures\factions\faction_xenon"></property>
+        <property type="BitMap" name="color_glow_map" value="assets\fx\gui\textures\factions\faction_xenon"></property>-->
+      </properties>
+    </material>
+  </collection>
+</materiallibrary>

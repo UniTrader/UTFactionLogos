@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+  <!-- Signal Engineer any time the Player docks somewhere to refresh the Logos
+  -> Station Interiors are created then on-demand and only show the Logo when it is added at this point -->
+  <add sel='//cue[@name="Docking"]/cues' >
+    <cue name="DockingSetFactionLogo" instantiate="true">
+      <conditions>
+        <event_object_changed_room object="player.entity" />
+      </conditions>
+      <actions>
+        <signal_objects object="$station.engineer" param="'Update Logos'" />
+      </actions>
+    </cue>
+  </add>
+</diff>

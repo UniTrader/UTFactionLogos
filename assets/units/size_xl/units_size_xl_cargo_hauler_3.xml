@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+  <add sel='//connections' >
+    <connection name="connection_faction_logo_01" tags="part nocollision faction_logo_60m">
+      <offset>
+        <position x="-27" y="39" z="800" />
+        <quaternion qx="0" qy="0.7071067811865475" qz="0" qw="0.7071067811865475" />
+      </offset>
+    </connection>
+    <connection name="connection_faction_logo_02" tags="part nocollision faction_logo_60m">
+      <offset>
+        <position x="39" y="39" z="800" />
+        <quaternion qx="0" qy="-0.7071067811865475" qz="0" qw="0.7071067811865475" />
+      </offset>
+    </connection>
+    <connection name="connection_faction_logo_03" tags="part nocollision faction_logo_60m">
+      <offset>
+        <position x="-160" y="65" z="290" />
+        <quaternion qx="0.3799281965909153" qy="0.5963678105290181" qz="-0.37992819659091526" qw="0.5963678105290182" />
+      </offset>
+    </connection>
+    <connection name="connection_faction_logo_04" tags="part nocollision faction_logo_60m">
+      <offset>
+        <position x="173" y="65" z="290" />
+        <quaternion qx="0.3799281965909153" qy="-0.5963678105290181" qz="0.37992819659091526" qw="0.5963678105290182" />
+      </offset>
+    </connection>
+    <connection name="connection_faction_logo_05" tags="part nocollision faction_logo_60m">
+      <offset>
+        <position x="-160" y="65" z="-50" />
+        <quaternion qx="0.3799281965909153" qy="0.5963678105290181" qz="-0.37992819659091526" qw="0.5963678105290182" />
+      </offset>
+    </connection>
+    <connection name="connection_faction_logo_06" tags="part nocollision faction_logo_60m">
+      <offset>
+        <position x="173" y="65" z="-50" />
+        <quaternion qx="0.3799281965909153" qy="-0.5963678105290181" qz="0.37992819659091526" qw="0.5963678105290182" />
+      </offset>
+    </connection>
+    <connection name="connection_faction_logo_07" tags="part nocollision faction_logo_60m">
+      <offset>
+        <position x="-160" y="65" z="-390" />
+        <quaternion qx="0.3799281965909153" qy="0.5963678105290181" qz="-0.37992819659091526" qw="0.5963678105290182" />
+      </offset>
+    </connection>
+    <connection name="connection_faction_logo_08" tags="part nocollision faction_logo_60m">
+      <offset>
+        <position x="173" y="65" z="-390" />
+        <quaternion qx="0.3799281965909153" qy="-0.5963678105290181" qz="0.37992819659091526" qw="0.5963678105290182" />
+      </offset>
+    </connection>
+    <connection name="connection_faction_logo_09" tags="part nocollision faction_logo_60m">
+      <offset>
+        <position x="-27" y="37" z="-910" />
+        <quaternion qx="0" qy="0.7071067811865475" qz="0" qw="0.7071067811865475" />
+      </offset>
+    </connection>
+    <connection name="connection_faction_logo_10" tags="part nocollision faction_logo_60m">
+      <offset>
+        <position x="39" y="37" z="-910" />
+        <quaternion qx="0" qy="-0.7071067811865475" qz="0" qw="0.7071067811865475" />
+      </offset>
+    </connection>
+  </add>
+</diff>

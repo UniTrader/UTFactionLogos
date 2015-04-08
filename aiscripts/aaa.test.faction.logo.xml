@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<aiscript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="aaa.test.faction.logo" xsi:noNamespaceSchemaLocation="http://utnas/~unitrader/XRebirthxsds/aiscripts.xsd">
+  <attention min="unknown">
+    <actions>
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_albionenergy'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_aquarius'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_argongovernment'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_beryll'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_canteran'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_chow'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_dispossed'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_enemy'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_familyryak'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_fijiargnu'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_frantonpharma'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_friend'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_heartofalbion'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_jonferson'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_leddaindustrial'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_neutral'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_nolimits'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_ownerless'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_player'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_player_1'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_player_2'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_player_3'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_player_4'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_player_5'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_player_6'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_player_7'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_player_8'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_player_9'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_player_10'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_player_11'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_player_12'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_player_13'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_player_14'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_player_15'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_plutarch'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_red'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_reivers'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_standard'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_wholesomefoods'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_xenon'" /></run_script><wait exact="1s" />
+      <run_script name="'lib.set.faction.logo'" ><param name="logo" value="'faction_player'" /></run_script><wait exact="1s" />
+      <return/>
+    </actions>
+  </attention>
+</aiscript>

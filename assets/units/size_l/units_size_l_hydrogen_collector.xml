@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+  <add sel='//connections' >
+    <connection name="connection_faction_logo_01" tags="part nocollision faction_logo_80m">
+      <offset>
+        <position x="177" y="175" z="-610" />
+        <quaternion qx="0.2705980500730985" qy="-0.6532814824381882" qz="0.27059805007309845" qw="0.6532814824381883" />
+      </offset>
+    </connection>
+    <connection name="connection_faction_logo_02" tags="part nocollision faction_logo_80m">
+      <offset>
+        <position x="-177" y="175" z="-610" />
+        <quaternion qx="0.2705980500730985" qy="0.6532814824381882" qz="-0.27059805007309845" qw="0.6532814824381883" />
+      </offset>
+    </connection>>
+    <connection name="connection_faction_logo_03" tags="part nocollision faction_logo_80m">
+      <offset>
+        <position x="82" y="128" z="340" />
+        <quaternion qx="0.35355339059327373" qy="-0.6123724356957945" qz="0.3535533905932737" qw="0.6123724356957946" />
+      </offset>
+    </connection>
+    <connection name="connection_faction_logo_04" tags="part nocollision faction_logo_80m">
+      <offset>
+        <position x="-82" y="128" z="340" />
+        <quaternion qx="0.35355339059327373" qy="0.6123724356957945" qz="-0.3535533905932737" qw="0.6123724356957946" />
+      </offset>
+    </connection>
+  </add>
+</diff>

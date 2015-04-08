@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+  <add sel='//connections' >
+    <connection name="connection_faction_logo_01" tags="part nocollision faction_logo_80m">
+      <offset>
+        <position x="-88" y="4" z="9" />
+        <quaternion qx="0.7071067811865475" qy="0" qz="0.7071067811865475" qw="0"  />
+      </offset>
+    </connection>
+    <connection name="connection_faction_logo_02" tags="part nocollision faction_logo_80m">
+      <offset>
+        <position x="88" y="4" z="9" />
+        <quaternion qx="-0.7071067811865475" qy="0" qz="0.7071067811865475" qw="0"  />
+      </offset>
+    </connection>
+    <!-- für Lyramekron 
+    <connection name="connection_faction_logo_01" tags="part nocollision faction_logo_80m">
+      <offset>
+        <position x="-88" y="4" z="-31" />
+        <quaternion qx="0" qy="0.7071067811865475" qz="0" qw="0.7071067811865475"  />
+      </offset>
+    </connection>
+    <connection name="connection_faction_logo_02" tags="part nocollision faction_logo_80m">
+      <offset>
+        <position x="88" y="4" z="-31" />
+        <quaternion qx="0" qy="0.7071067811865475" qz="0" qw="-0.7071067811865475" />
+      </offset>
+    </connection>-->
+  </add>
+</diff>
+<!--					<position x="-4.185709E-02" y="-137.0102" z="551.9571"/>-->
+
+<!--
+Olmekron: Correct
+Lyranea: Correct
+Olmekron: hidden !!! (but oriented correct)
+Lyramekron: overhead !!! (but slightly hidden)
+-->

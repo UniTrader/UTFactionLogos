@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+  <add sel='//connections' >
+    <connection name="connection_faction_logo_01" tags="part nocollision faction_logo_60m">
+      <offset>
+        <position x="0" y="115" z="25" />
+        <quaternion qx="0" qy="0.7071067811865475" qz="-0.7071067811865475" qw="0" />
+      </offset>
+    </connection>
+  </add>
+</diff>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<components>
+	<component name="yuunito_square">
+		<source geometry="yuunito_square_data" />
+		<connections>
+			<connection name="Connection01" tags="part">
+				<parts>
+					<part name="part_main">
+						<size>
+							<max x="2.5" y="2.5" z="0" />
+							<center x="0" y="0" z="0" />
+						</size>
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="yuunito.square" />
+								</materials>
+							</lod>
+						</lods>
+					</part>
+				</parts>
+				<offset>
+					<position x="-0.000000" y="0.000000" z="0.000000" />
+				</offset>
+			</connection>
+		</connections>
+	</component>
+</components>

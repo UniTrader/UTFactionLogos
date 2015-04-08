@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<aiscript name="lib.set.faction.logo" priority="5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://utnas/~unitrader/XRebirthxsds/aiscripts.xsd">
+  <params>
+    <param name="object" default="null" comment="Object to be equipped with Logos, defaults to $entity.ship or $entity.station, whichever exists" />
+    <param name="logo" default="null" comment="pass 'engineer' to use Engineer Setting, if available, 'commander' to use the Logo of the Commander Ship, 'faction' to determine by (cover) owner faction, null for using the most specific logo set (Engineer, Commander, Faction) - or use any other string to define Logo directly ( 'none' or other invalid Values will just remove Logos )" />
+    <!--<param name="illumination" default="null" comment="How the Markings should be Illuminated (default: none, or maybe owner-specific)" /> not to be implemented - maybe in some future version -->
+  </params>
+  <attention min="unknown">
+    <actions>
+      <!-- get $object if not defined -->
+      <do_if value="$object.exists" />
+      <do_elseif value="this.ship.exists" >
+        <set_value name="$object" exact="this.ship" />
+      </do_elseif>
+      <!-- Stations are not implemented yet - skipping
+      <do_elseif value="this.station.exists" >
+        <set_value name="$object" exact="this.station" />
+      </do_elseif-->
+      <do_else><return comment="no valid Object aquireable - aborting" /></do_else>
+
+      <!-- restore default behavior (like when not configured) -->
+      <do_if value="$logo == 'default'" >
+        <remove_value name="$object.engineer.$faction_logo" />
+        <set_value name="$logo" exact="null" />
+      </do_if>
+
+      <!-- get $logo string if not defined or lookup place is specified - first check engineer Setting and then use it or look in the specified/next-higher place -->
+      <do_if value="( $logo == 'engineer' or $logo == null ) and $object.engineer.$faction_logo? " comment="engineer logo">
+        <set_value name="$logo" exact="$object.engineer.$faction_logo" />
+      </do_if>
+      <do_elseif value="( $logo == 'commander' or $logo == null ) and $object.commander.engineer.$faction_logo? " comment="Commander Ship logo">
+        <set_value name="$logo" exact="$object.commander.engineer.$faction_logo" /> 
+      </do_elseif>
+      <do_elseif value="( $logo == 'commander' or $logo == null ) and $object.commander.commander.engineer.$faction_logo? " comment="Commander Ship logo">
+        <set_value name="$logo" exact="$object.commander.commander.engineer.$faction_logo" /> 
+      </do_elseif>
+      <do_elseif value="( $logo == 'commander' or $logo == null ) and $object.commander.commander.commander.engineer.$faction_logo? " comment="Commander Ship logo">
+        <set_value name="$logo" exact="$object.commander.commander.commander.engineer.$faction_logo" />
+      </do_elseif>
+      <do_elseif value="( $logo == 'commander' or $logo == null ) and $object.commander.commander.commander.commander.engineer.$faction_logo? " comment="Commander Ship logo">
+        <set_value name="$logo" exact="$object.commander.commander.commander.commander.engineer.$faction_logo" /> 
+      </do_elseif>
+      <do_elseif value="( $logo == 'commander' or $logo == null ) and $object.commander.commander.commander.commander.commander.engineer.$faction_logo? " comment="Commander Ship logo">
+        <set_value name="$logo" exact="$object.commander.commander.commander.commander.commander.engineer.$faction_logo" /> 
+      </do_elseif>
+      <do_elseif value="( $logo == 'commander' or $logo == null ) and $object.commander.commander.commander.commander.commander.commander.engineer.$faction_logo? " comment="Commander Ship logo">
+        <set_value name="$logo" exact="$object.commander.commander.commander.commander.commander.commander.engineer.$faction_logo" /> <!-- it may be good to try a recursion here instead.. -->
+      </do_elseif>
+      <do_elseif value=" $logo == 'faction' or $logo == null " comment="faction logo">
+        <do_if value="$object.owner == faction.player" comment="Aquire Player Logo">
+          <!-- get globally defined Player Logo and if not defined fall back to default logo -->
+          <do_if value="global.$player_logo?" >
+            <set_value name="$logo" exact="global.$player_logo" />
+          </do_if>
+          <do_else>
+            <set_value name="$logo" exact="'faction_player'" />
+          </do_else>
+          <set_value name="$Changed_Logo" exact="true" />
+        </do_if>
+        <!-- Special Cases for Factions without own Logo -->
+        <do_elseif value="$object.owner == faction.hereticvanguards">
+          <set_value name="$logo" exact="'faction_enemy'" />
+        </do_elseif>
+        <do_elseif value="$object.owner == faction.smuggler">
+          <set_value name="$logo" exact="'faction_friend'" /><!-- smile and continue until you are no longer under observation :D -->
+        </do_elseif>
+        <do_elseif value="$object.owner == faction.sonraenergy">
+          <set_value name="$logo" exact="'faction_standard'" />
+        </do_elseif>
+        <do_elseif value="$object.owner == faction.sovereignsyndicate">
+          <set_value name="$logo" exact="'faction_enemy'" />
+        </do_elseif>
+        <!-- Republic of Cantera uses a Logo which seems to belong to another faction refered as RED in some game files, possibly dropped -->
+        <do_elseif value="$object.owner == faction.canteran">
+          <set_value name="$logo" exact="'faction_red'" />
+        </do_elseif>
+        <!-- general case for all other Factions: get logo string directly from Faction ID -->
+        <do_else>
+          <set_value name="$logo" exact="'faction_' + $object.owner.id" />
+        </do_else>
+      </do_elseif>
+      <!-- Logo supplied by Parameter directly - save it for updates & subordiantes -->
+      <do_else >
+        <set_value name="$object.engineer.$faction_logo" exact="$logo" />
+      </do_else>
+
+      <!-- Check if $object is enabled for Faction Logos: currently only L and XL Ships supported -->
+      <do_if value="$object.isclass.ship_xl or $object.isclass.ship_l" >
+
+        <!-- compile List of available Logos and Sizes (Add new Logos to the List after the next set_value-Node) -->
+        <set_value name="$logo_list" comment="create Logo List" exact="[
+        'faction_albionenergy',
+        'faction_aquarius',
+        'faction_argongovernment',
+        'faction_beryll',
+        'faction_canteran',
+        'faction_chow',
+        'faction_dispossed',
+        'faction_enemy',
+        'faction_familyryak',
+        'faction_fijiargnu',
+        'faction_frantonpharma',
+        'faction_friend',
+        'faction_heartofalbion',
+        'faction_jonferson',
+        'faction_leddaindustrial',
+        'faction_neutral',
+        'faction_nolimits',
+        'faction_ownerless',
+        'faction_player',
+        'faction_plutarch',
+        'faction_red',
+        'faction_reivers',
+        'faction_standard',
+        'faction_wholesomefoods',
+        'faction_xenon'
+        ]" />
+        <set_value name="$logo_sizes" exact="[
+        '2m',
+        '5m',
+        '10m',
+        '20m',
+        '40m',
+        '60m',
+        '80m'
+        ]" />
+
+        <!-- remove all Logos in all Sizes to clean things before we do anything else -->
+        <do_all exact="$logo_list.count" counter="$i" >
+          <do_all exact="$logo_sizes.count" counter="$j" >
+            <upgrade_object_by_macro macro="macro.{'markings_logos_%1_%2_macro'.[ $logo_list.{$i} , $logo_sizes.{$j} ] }" object="$object" exact="0" comment="exact in % of available Slots!" />
+          </do_all>
+        </do_all>
+
+        <!-- Add specified Logos to Ship -->
+        <do_if value="true" comment="add selected logo" >
+          <do_if value="$logo == 'none'" comment="only Remove Logos" />
+          <do_elseif value="$logo_list.indexof.{$logo} gt 0" comment="Add Logos"><!-- make sure we only add Logos which can be removed by this Script -->
+            <do_all exact="$logo_sizes.count" counter="$i" >
+              <upgrade_object_by_macro macro="macro.{'markings_logos_%1_%2_macro'.[ $logo , $logo_sizes.{$i} ] }" object="$object" exact="100" comment="exact in % of available Slots!" />
+            </do_all>
+          </do_elseif>
+          <!-- you may add special cases here, like combined Logos etc. - just dont use a default name ( like faction_* ) for that to avoid confusion -->
+        </do_if>
+      </do_if>
+
+      <!-- update Subordinates Logos if they dont have an own logo-->
+      <do_all exact="$object.subordinates.count" counter="$i">
+        <do_if value="$object.subordinates.{$i}.engineer.exists and not $object.subordinates.{$i}.engineer.$faction_logo?" >
+          <signal_objects object="$object.subordinates.{$i}.engineer" param="'Update Logos'" />
+        </do_if>
+      </do_all>
+    </actions>
+  </attention>
+</aiscript>

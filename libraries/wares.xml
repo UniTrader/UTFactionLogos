@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+  <!--just_for_copy_n_paste>
+    <ware ware="machinegunturret" amount="0" /><!- - MIT/MA Turret - ->
+    <ware ware="shotgunturret" amount="0" /><!- - Hailstorm/MA Turret - ->
+    <ware ware="shieldgenerator" amount="0" /><!- - Force Field Projector - ->
+    <ware ware="swarmturret" amount="0" /><!- - Astrobee Launcher - ->
+    <ware ware="dumbfireturret" amount="0" /><!- - V Launcher - ->
+    <ware ware="laserturret" amount="0" /><!- - Plasma/JET LR Turret - ->
+    <ware ware="plasmaturret" amount="0" /><!- - Plasma/MA Turret - ->
+  </just_for_copy_n_paste-->
+  
+  <!-- ###### XL Ships ###### -->
+  <!-- Arawn -->
+  <add sel='//ware[@id="shp_xl_capital_destroyer_1"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="56" /><!-- MIT/MA Turret -->
+    <ware ware="shotgunturret" amount="16" /><!-- Hailstorm/MA Turret -->
+    <ware ware="shieldgenerator" amount="29" /><!-- Force Field Projector -->
+    <ware ware="swarmturret" amount="1" /><!-- Astrobee Launcher -->
+    <ware ware="dumbfireturret" amount="5" /><!-- V Launcher -->
+    <ware ware="plasmaturret" amount="22" /><!-- Plasma/MA Turret -->
+  </add>
+  <add sel='//ware[@id="shp_xl_capital_destroyer_1"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="56" /><!-- MIT/MA Turret -->
+    <ware ware="shotgunturret" amount="16" /><!-- Hailstorm/MA Turret -->
+    <ware ware="shieldgenerator" amount="29" /><!-- Force Field Projector -->
+    <ware ware="swarmturret" amount="1" /><!-- Astrobee Launcher -->
+    <ware ware="dumbfireturret" amount="5" /><!-- V Launcher -->
+    <ware ware="plasmaturret" amount="22" /><!-- Plasma/MA Turret -->
+  </add>
+  
+  <!-- Taranis -->
+  <add sel='//ware[@id="shp_xl_capital_destroyer_2"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="26" /><!-- MIT/MA Turret -->
+    <ware ware="shotgunturret" amount="8" /><!-- Hailstorm/MA Turret -->
+    <ware ware="shieldgenerator" amount="20" /><!-- Force Field Projector -->
+    <ware ware="swarmturret" amount="2" /><!-- Astrobee Launcher -->
+    <ware ware="laserturret" amount="4" /><!-- Plasma/JET LR Turret -->
+    <ware ware="plasmaturret" amount="6" /><!-- Plasma/MA Turret -->
+  </add>
+  <add sel='//ware[@id="shp_xl_capital_destroyer_2"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="26" /><!-- MIT/MA Turret -->
+    <ware ware="shotgunturret" amount="8" /><!-- Hailstorm/MA Turret -->
+    <ware ware="shieldgenerator" amount="20" /><!-- Force Field Projector -->
+    <ware ware="swarmturret" amount="2" /><!-- Astrobee Launcher -->
+    <ware ware="laserturret" amount="4" /><!-- Plasma/JET LR Turret -->
+    <ware ware="plasmaturret" amount="6" /><!-- Plasma/MA Turret -->
+  </add>
+  
+  <!-- Scaldis -->
+  <add sel='//ware[@id="shp_xl_cargo_hauler_3"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="4" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="6" /><!-- Force Field Projector -->
+  </add>
+  <add sel='//ware[@id="shp_xl_cargo_hauler_3"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="4" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="6" /><!-- Force Field Projector -->
+  </add>
+  
+  <!-- Sucellus -->
+  <add sel='//ware[@id="shp_xl_red_destroyer"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="21" /><!-- MIT/MA Turret -->
+    <ware ware="shotgunturret" amount="2" /><!-- Hailstorm/MA Turret -->
+    <ware ware="shieldgenerator" amount="7" /><!-- Force Field Projector -->
+    <ware ware="dumbfireturret" amount="2" /><!-- V Launcher -->
+    <ware ware="plasmaturret" amount="4" /><!-- Plasma/MA Turret -->
+  </add>
+  <add sel='//ware[@id="shp_xl_red_destroyer"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="21" /><!-- MIT/MA Turret -->
+    <ware ware="shotgunturret" amount="2" /><!-- Hailstorm/MA Turret -->
+    <ware ware="shieldgenerator" amount="7" /><!-- Force Field Projector -->
+    <ware ware="dumbfireturret" amount="2" /><!-- V Launcher -->
+    <ware ware="plasmaturret" amount="4" /><!-- Plasma/MA Turret -->
+  </add>
+  
+  <!-- Fulmekron -->
+  <add sel='//ware[@id="shp_xl_cs_ol_ship_02"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="68" /><!-- MIT/MA Turret -->
+    <ware ware="shotgunturret" amount="8" /><!-- Hailstorm/MA Turret -->
+    <ware ware="shieldgenerator" amount="35" /><!-- Force Field Projector -->
+    <ware ware="swarmturret" amount="0" /><!-- Astrobee Launcher -->
+    <ware ware="dumbfireturret" amount="0" /><!-- V Launcher -->
+    <ware ware="laserturret" amount="12" /><!-- Plasma/JET LR Turret -->
+    <ware ware="plasmaturret" amount="30" /><!-- Plasma/MA Turret -->
+  </add>
+  <add sel='//ware[@id="shp_xl_cs_ol_ship_02"]/production[@method="albion"]/primary'>
+    <ware ware="machinegunturret" amount="68" /><!-- MIT/MA Turret -->
+    <ware ware="shotgunturret" amount="8" /><!-- Hailstorm/MA Turret -->
+    <ware ware="shieldgenerator" amount="35" /><!-- Force Field Projector -->
+    <ware ware="swarmturret" amount="0" /><!-- Astrobee Launcher -->
+    <ware ware="dumbfireturret" amount="0" /><!-- V Launcher -->
+    <ware ware="laserturret" amount="12" /><!-- Plasma/JET LR Turret -->
+    <ware ware="plasmaturret" amount="30" /><!-- Plasma/MA Turret -->
+  </add>
+  
+  <!-- Lyramekron -->
+  <add sel='//ware[@id="shp_xl_cs_ol_ship_04"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="70" /><!-- MIT/MA Turret -->
+    <ware ware="shotgunturret" amount="4" /><!-- Hailstorm/MA Turret -->
+    <ware ware="shieldgenerator" amount="34" /><!-- Force Field Projector -->
+    <ware ware="plasmaturret" amount="14" /><!-- Plasma/MA Turret -->
+  </add>
+  <add sel='//ware[@id="shp_xl_cs_ol_ship_04"]/production[@method="albion"]/primary'>
+    <ware ware="machinegunturret" amount="70" /><!-- MIT/MA Turret -->
+    <ware ware="shotgunturret" amount="4" /><!-- Hailstorm/MA Turret -->
+    <ware ware="shieldgenerator" amount="34" /><!-- Force Field Projector -->
+    <ware ware="plasmaturret" amount="14" /><!-- Plasma/MA Turret -->
+  </add>
+  
+  <!-- Lyranea -->
+  <add sel='//ware[@id="shp_xl_cs_ol_ship_01"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="20" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="12" /><!-- Force Field Projector -->
+    <ware ware="plasmaturret" amount="2" /><!-- Plasma/MA Turret -->
+  </add>
+  <add sel='//ware[@id="shp_xl_cs_ol_ship_01"]/production[@method="albion"]/primary'>
+    <ware ware="machinegunturret" amount="20" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="12" /><!-- Force Field Projector -->
+    <ware ware="plasmaturret" amount="2" /><!-- Plasma/MA Turret -->
+  </add>
+  
+  <!-- Olmekron -->
+  <add sel='//ware[@id="shp_xl_cs_ol_ship_03"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="70" /><!-- MIT/MA Turret -->
+    <ware ware="shotgunturret" amount="4" /><!-- Hailstorm/MA Turret -->
+    <ware ware="shieldgenerator" amount="34" /><!-- Force Field Projector -->
+    <ware ware="laserturret" amount="8" /><!-- Plasma/JET LR Turret -->
+    <ware ware="plasmaturret" amount="12" /><!-- Plasma/MA Turret -->
+  </add>
+  <add sel='//ware[@id="shp_xl_cs_ol_ship_03"]/production[@method="albion"]/primary'>
+    <ware ware="machinegunturret" amount="70" /><!-- MIT/MA Turret -->
+    <ware ware="shotgunturret" amount="4" /><!-- Hailstorm/MA Turret -->
+    <ware ware="shieldgenerator" amount="34" /><!-- Force Field Projector -->
+    <ware ware="laserturret" amount="8" /><!-- Plasma/JET LR Turret -->
+    <ware ware="plasmaturret" amount="12" /><!-- Plasma/MA Turret -->
+  </add>
+  
+  <!-- SCUDAs (all 3) -->
+  <add sel='//ware[@id="shp_xl_builder_ship_al"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="4" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="4" /><!-- Force Field Projector -->
+  </add>
+  <add sel='//ware[@id="shp_xl_builder_ship_al"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="4" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="4" /><!-- Force Field Projector -->
+  </add>
+  <add sel='//ware[@id="shp_xl_builder_ship_dv"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="4" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="4" /><!-- Force Field Projector -->
+  </add>
+  <add sel='//ware[@id="shp_xl_builder_ship_dv"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="4" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="4" /><!-- Force Field Projector -->
+  </add>
+  <add sel='//ware[@id="shp_xl_builder_ship_ol"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="4" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="4" /><!-- Force Field Projector -->
+  </add>
+  <add sel='//ware[@id="shp_xl_builder_ship_ol"]/production[@method="albion"]/primary'>
+    <ware ware="machinegunturret" amount="4" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="4" /><!-- Force Field Projector -->
+  </add>
+  
+  
+  <!-- ###### L Ships ###### -->
+  <!-- Balor -->
+  <add sel='//ware[@id="shp_l_single_attackship"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="8" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="4" /><!-- Force Field Projector -->
+  </add>
+  <add sel='//ware[@id="shp_l_single_attackship"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="8" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="4" /><!-- Force Field Projector -->
+  </add>
+  
+  <!-- Boann -->
+  <add sel='//ware[@id="shp_l_hydrogen_collector"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="6" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="3" /><!-- Force Field Projector -->
+  </add>
+  <add sel='//ware[@id="shp_l_hydrogen_collector"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="6" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="3" /><!-- Force Field Projector -->
+  </add>
+  
+  <!-- Fedhelm -->
+  <add sel='//ware[@id="shp_l_crystal_collector"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="4" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="4" /><!-- Force Field Projector -->
+  </add>
+  <add sel='//ware[@id="shp_l_crystal_collector"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="4" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="4" /><!-- Force Field Projector -->
+  </add>
+  
+  <!-- Light Sul -->
+  <add sel='//ware[@id="shp_l_kit_carrier_01"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="14" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="5" /><!-- Force Field Projector -->
+    <ware ware="plasmaturret" amount="2" /><!-- Plasma/MA Turret -->
+  </add>
+  <add sel='//ware[@id="shp_l_kit_carrier_01"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="14" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="5" /><!-- Force Field Projector -->
+    <ware ware="plasmaturret" amount="2" /><!-- Plasma/MA Turret -->
+  </add>
+  
+  <!-- Midir -->
+  <add sel='//ware[@id="shp_l_ions_collector"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="6" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="4" /><!-- Force Field Projector -->
+  </add>
+  <add sel='//ware[@id="shp_l_ions_collector"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="6" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="4" /><!-- Force Field Projector -->
+  </add>
+  
+  <!-- Rahanas C -->
+  <add sel='//ware[@id="shp_l_kit_container_01"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="8" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="3" /><!-- Force Field Projector -->
+  </add>
+  <add sel='//ware[@id="shp_l_kit_container_01"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="8" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="3" /><!-- Force Field Projector -->
+  </add>
+  
+  <!-- Rahanas E -->
+  <add sel='//ware[@id="shp_l_kit_energy_01"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="8" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="3" /><!-- Force Field Projector -->
+  </add>
+  <add sel='//ware[@id="shp_l_kit_energy_01"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="8" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="3" /><!-- Force Field Projector -->
+  </add>
+  
+  <!-- Rahanas F -->
+  <add sel='//ware[@id="shp_l_kit_liquid_01"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="8" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="3" /><!-- Force Field Projector -->
+  </add>
+  <add sel='//ware[@id="shp_l_kit_liquid_01"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="8" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="3" /><!-- Force Field Projector -->
+  </add>
+  
+  <!-- Rahanas B -->
+  <add sel='//ware[@id="shp_l_kit_bulk_01"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="8" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="3" /><!-- Force Field Projector -->
+  </add>
+  <add sel='//ware[@id="shp_l_kit_bulk_01"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="8" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="3" /><!-- Force Field Projector -->
+  </add>
+  
+  <!-- Heavy Sul -->
+  <add sel='//ware[@id="shp_l_kit_carrier_02"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="18" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="7" /><!-- Force Field Projector -->
+    <ware ware="plasmaturret" amount="4" /><!-- Plasma/MA Turret -->
+  </add>
+  <add sel='//ware[@id="shp_l_kit_carrier_02"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="18" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="7" /><!-- Force Field Projector -->
+    <ware ware="plasmaturret" amount="4" /><!-- Plasma/MA Turret -->
+  </add>
+  
+  <!-- Sequana -->
+  <add sel='//ware[@id="shp_l_ice_collector"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="6" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="4" /><!-- Force Field Projector -->
+  </add>
+  <add sel='//ware[@id="shp_l_ice_collector"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="6" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="4" /><!-- Force Field Projector -->
+  </add>
+  
+  <!-- Hermond -->
+  <add sel='//ware[@id="shp_l_liquid_freighter"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="4" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="4" /><!-- Force Field Projector -->
+  </add>
+  <add sel='//ware[@id="shp_l_liquid_freighter"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="4" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="4" /><!-- Force Field Projector -->
+  </add>
+  
+  <!-- Lepton-->
+  <add sel='//ware[@id="shp_l_canteran_transporter"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="2" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="2" /><!-- Force Field Projector -->
+  </add>
+  <add sel='//ware[@id="shp_l_canteran_transporter"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="2" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="2" /><!-- Force Field Projector -->
+  </add>
+  
+  <!-- Stromvok -->
+  <add sel='//ware[@id="shp_l_dv_new_defence_01"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="12" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="7" /><!-- Force Field Projector -->
+    <ware ware="plasmaturret" amount="4" /><!-- Plasma/MA Turret -->
+  </add>
+  <add sel='//ware[@id="shp_l_dv_new_defence_01"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="12" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="7" /><!-- Force Field Projector -->
+    <ware ware="plasmaturret" amount="4" /><!-- Plasma/MA Turret -->
+  </add>
+  
+  <!-- Styrvok (C+E) -->
+  <add sel='//ware[@id="shp_l_dv_new_hybrid_02"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="8" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="6" /><!-- Force Field Projector -->
+  </add>
+  <add sel='//ware[@id="shp_l_dv_new_hybrid_02"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="8" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="6" /><!-- Force Field Projector -->
+  </add>
+  
+  <!-- Styrvok (C) -->
+  <add sel='//ware[@id="shp_l_dv_new_container_01"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="8" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="5" /><!-- Force Field Projector -->
+  </add>
+  <add sel='//ware[@id="shp_l_dv_new_container_01"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="8" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="5" /><!-- Force Field Projector -->
+  </add>
+  
+  <!-- Styrvok (E) -->
+  <add sel='//ware[@id="shp_l_dv_new_energy_01"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="8" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="5" /><!-- Force Field Projector -->
+  </add>
+  <add sel='//ware[@id="shp_l_dv_new_energy_01"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="8" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="5" /><!-- Force Field Projector -->
+  </add>
+  
+  <!-- Styrvok (F) -->
+  <add sel='//ware[@id="shp_l_dv_new_liquid_01"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="8" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="5" /><!-- Force Field Projector -->
+  </add>
+  <add sel='//ware[@id="shp_l_dv_new_liquid_01"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="8" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="5" /><!-- Force Field Projector -->
+  </add>
+  
+  <!-- Styrvok (B+F) -->
+  <add sel='//ware[@id="shp_l_dv_new_hybrid_01"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="8" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="6" /><!-- Force Field Projector -->
+  </add>
+  <add sel='//ware[@id="shp_l_dv_new_hybrid_01"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="8" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="6" /><!-- Force Field Projector -->
+  </add>
+  
+  <!-- Styrvok (B) -->
+  <add sel='//ware[@id="shp_l_dv_new_bulk_01"]/production[@method="default"]/primary'>
+    <ware ware="machinegunturret" amount="8" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="5" /><!-- Force Field Projector -->
+  </add>
+  <add sel='//ware[@id="shp_l_dv_new_bulk_01"]/production[@method="omicron"]/primary'>
+    <ware ware="machinegunturret" amount="8" /><!-- MIT/MA Turret -->
+    <ware ware="shieldgenerator" amount="5" /><!-- Force Field Projector -->
+  </add>
+</diff>

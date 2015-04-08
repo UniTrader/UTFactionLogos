@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+  <add sel='//connections' >
+    <connection name="connection_faction_logo_01" tags="part nocollision faction_logo_80m">
+      <offset>
+        <position x="38" y="27" z="400" />
+        <rotation yaw="-90" pitch="-82" roll="90" />
+      </offset>
+    </connection>
+    <connection name="connection_faction_logo_02" tags="part nocollision faction_logo_80m">
+      <offset>
+        <position x="38" y="-29" z="400" />
+        <rotation yaw="-90" pitch="82" roll="90" />
+      </offset>
+    </connection>
+  </add>
+</diff>

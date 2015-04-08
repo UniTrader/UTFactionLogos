@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+  <add sel='/aiscript/init' pos="before" >
+  <interrupts>
+    <!-- Engineer Signalled to refresh Logos (or a subordinate was added who has to update its logo for the current Group it belongs to)-->
+    <handler>
+      <conditions>
+        <check_any>
+          <event_object_signalled object="this" param="'Update Logos'"/>
+          <event_object_signalled object="this" param="'Change Logos'"/>
+          <event_object_subordinate_added object="this.container.controlentity" />
+        </check_any>
+      </conditions>
+      <actions>
+        <do_if value="event.param == 'Update Logos'" >
+          <run_interrupt_script name="'lib.set.faction.logo'" />
+        </do_if>
+        <do_elseif value="event.param == 'Change Logos'" >
+          <run_interrupt_script name="'lib.set.faction.logo'" >
+            <param name="logo" value="event.param2" />
+          </run_interrupt_script>
+        </do_elseif>
+        <do_elseif value="event.name == 'event_object_subordinate_added' and event.param.engineer.exists" >
+          <signal_objects object="event.param.engineer" param="'Update Logos'" />
+        </do_elseif>
+      </actions>
+    </handler>
+  </interrupts>
+  </add>
+</diff>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<components  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://utnas/~unitrader/XRebirthxsds/component.xsd" >
+	<component name="markings_logos_faction_reivers_2m">
+		<source geometry="\Extensions\UTFactionLogos\assets\markings\logos\faction_reivers\data\2m" />
+		<connections>
+			<connection name="Connection01" tags="part">
+				<parts>
+					<part name="part_main">
+						<size>
+							<max x="1" y="1" z="0" />
+							<center x="0" y="-4.76837e-007" z="0" />
+						</size>
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="logos.faction_reivers" />
+								</materials>
+							</lod>
+						</lods>
+					</part>
+				</parts>
+				<offset>
+					<position x="-0.000000" y="0.000000" z="0.000000" />
+				</offset>
+			</connection>
+      <connection name="connection_faction_logo" tags="component faction_logo_2m" optional="0" />
+		</connections>
+	</component>
+  
+</components>
